@@ -1,0 +1,87 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+#introduce .in4, 
+.game li,
+.music li,
+.monan li
+{
+    line-height: 1.6;
+}
+.ava {
+   margin: auto;
+   display: block;
+   width: 200px;
+}
+#message {
+    width: 600px;
+    height: 100px;
+}
+h1 {
+    color: #CAEDFF;
+    margin-top: 0;
+}
+h2 {
+    color: #D8B4F8;
+}
+h3 {
+    color: #FFC7EA
+}
+h4 {
+    color: #fbf0b2
+}
+h1, h2, h3, h4 {
+    font-size: 24px;
+    text-shadow: 
+    -1px  -1px 0 black, /*shadown trái trên*/
+    1px -1px 0 black, /*shadown phải trên*/
+    -1px 1px 0 black, /*shadown trái dưới*/
+    1px 1px 0 black; /*shadown phải trên*/
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #d4f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: #0b0848;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+
+}
+
+#introduce{
+    background-color: #F3FDE8;
+}
+
+#giaoluu{
+    text-align: center;
+    background-image: url(https://images3.alphacoders.com/132/1329168.png);
+    /* background-size: 400px auto; */
+    background-repeat: repeat;
+}
+td, th {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #d4f2f4;
+    color: #0b0848;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

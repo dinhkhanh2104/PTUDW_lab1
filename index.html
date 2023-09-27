@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+                    <!-- Navigation -->
+    <nav>
+        <a href="#introduce">Giới thiệu bản thân</a>
+        <a href="#giaoluu">Giao lưu</a>
+    </nav>
+
+                    <!-- Content -->
+
+                    <!-- Introduction -->
+    <div id="introduce">
+        <h1>Giới thiệu bản thân</h1>
+        <img class ="ava"  src="./messi.png" alt="Đây là ảnh đại diện" >
+        <h2>Thông tin cơ bản</h2>
+            <ul class="in4">
+                <li>Tên: Trần Đình Khánh</li>
+                <li>Năm sinh: 2003</li>
+                <li>Chuyên ngành: Công nghệ thông tin</li>
+            </ul>
+        <h2>Sở thích</h2>
+        <h3>Món ăn</h3>
+            <ol class="monan">
+                <li>Bánh mì</li>
+                <li>Quả táo</li>
+                <li>Mì bò rau thơm</li>
+            </ol>
+        <h3>Giải trí</h3>
+        <h4>Trò chơi</h4>
+            <ul class="game">
+                <li>Liên quân mobile</li>
+                <li>Valorant</li>
+                <li>Bóng đá</li>
+            </ul>
+        <h4>Bài nhạc yêu thích</h4>
+            <ul class="music">
+                <li>Ngủ một mình _ Hiếu Thứ Hai</li>
+                <li>Die for you _ The Weekend</li>
+                <li>Hãy trao cho anh _ Sơn Tùng MTP</li>
+            </ul>
+        <h2>Mục tiêu của bản thân</h2>
+        <table>
+            <tr class="heading-table">
+                <th>Mục Tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn Thành</th>
+            </tr>
+            <tr>
+                <td>Trung bình điểm môn web đạt 8.0</td>
+                <td>31/12/2023</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                <td>31/12/2024</td>
+                <td><input type="checkbox"> </td>
+            </tr>
+            <tr>
+                <td>Chọn được công ty với vị trí backend developer</td>
+                <td>21/04/2024</td>
+                <td><input type="checkbox"> </td>
+            </tr>
+        </table>
+        <br> <br>
+    </div>
+                            <!-- Contact -->
+    <div id="giaoluu">
+        <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+        <form action="">
+            <label for="fname">Họ và tên: </label>
+            <input type="text" id="fname" name="fname"><br><br>
+           
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email"><br><br>
+           
+            <label for="message">Tin nhắn: </label> <br>
+            <input type="text" id="message" name="message"><br><br>
+
+            <label>Giới tính:</label> <br>
+            <input type="radio" id="gender" name="sex" >
+            <label for="gender">Nam </label>
+            <input type="radio" id="gender" name="sex" >
+            <label for="gender">Nữ </label> <br> <br>
+            
+            <label>Sở thích:</label> <br>
+            <label for="boi">Bơi lội</label>
+            <input type="checkbox" id="boi">
+            <label for="phim">Xem phim</label>
+            <input type="checkbox" id="phim">
+            <label for="sport">Đá bóng</label>
+            <input type="checkbox" id="sport"> <br> <br>
+      
+            <label for="nganh">Ngành:</label>
+            <select name = "nganh" id="nganh">
+            <!-- <input list="khoa" id="khoa" name="khoa"> -->
+            <datalist id="khoa">
+              <option value="Khoa học máy tính">Khoa học máy tính</option>
+              <option value="Công nghệ thông tin">Công nghệ thông tin</option>
+              <option value="Kĩ thuật máy tính">Kĩ thuật máy tính</option>
+              <option value="An toàn thông tin">An toàn thông tin</option>
+              <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+            </datalist>
+            <br> <br>
+
+            <button>Gửi</button>
+            <br> <br>
+        </form>
+    </div>
+    <footer>
+        <p>@2023 21520984 - Trần Đình Khánh</p>
+    </footer>
+</body>
+</html>
